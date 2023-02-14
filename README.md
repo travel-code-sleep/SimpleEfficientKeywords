@@ -1,6 +1,6 @@
 # 💡 SimpleEfficientKeyword (SEKeywords)
 ## 🛠🍹A simple efficient cocktail of keyword extraction algorithms, text processing and language model to generate and summarize high quality multi-document keywords fast and handsfree.
-## 🤩 0 to production read in 3 lines of code.
+## 🤩 0 to production ready in 3 lines of code.
 
 ```
 SimpleEfficientKeyword
