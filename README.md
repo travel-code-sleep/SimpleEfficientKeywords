@@ -1,9 +1,11 @@
 # 💡 SimpleEfficientKeyword (SEKeywords)
 ## 🛠🍹A simple efficient cocktail of keyword extraction algorithms, text processing and language model to generate and summarize high quality multi-document keywords fast and handsfree.
+## 🤩 0 to product read in 3 lines of code.
 
 ```
 SimpleEfficientKeyword
 ├─ .gitignore
+├─ CITATION.cff
 ├─ LICENSE
 ├─ README.md
 ├─ notebooks
@@ -15,6 +17,7 @@ SimpleEfficientKeyword
 └─ sekeywords
    ├─ __init__.py
    ├─ sekeywords.py
-   └─ sekeywords_visualiser.pyCancel changes
+   ├─ sekeywords_spark.py
+   └─ sekeywords_visualiser.py
 
 ```
