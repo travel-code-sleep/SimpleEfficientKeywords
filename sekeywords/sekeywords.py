@@ -159,14 +159,14 @@ class SEKeywords:
             sgrank_ngrams_range: tuple = (2, 3, 4, 5, 6, 7, 8),
             handle_noun_chunks: bool = False,
             include_entities: bool = False,
-            entity_types: tuple = ('ORG', 'PRODUCT', 'GPE')) -> pd.DataFrame:
-        """extract_keywords accepts pandas dataframe containing text documents and returns keywords and removed bad_keywords as two new columns of the dataframe.
+            entity_types: tuple = ('ORG', 'PRODUCT', 'GPE')) -> Union[pd.DataFrame, tuple[list, list]]:
+        """extract_keywords _summary_
 
         _extended_summary_
 
         Args:
-            data (pd.DataFrame): _description_
-            text_col (str): _description_
+            data (Union[pd.DataFrame, Iterable]): _description_
+            text_col (Optional[str], optional): _description_. Defaults to None.
             convert_to_ascii (bool, optional): _description_. Defaults to True.
             clean_text (bool, optional): _description_. Defaults to True.
             dedupe_text (bool, optional): _description_. Defaults to False.
@@ -184,7 +184,7 @@ class SEKeywords:
             entity_types (tuple, optional): _description_. Defaults to ('ORG', 'PRODUCT', 'GPE').
 
         Returns:
-            pd.DataFrame: _description_
+            Union[pd.DataFrame, tuple[list, list]]: _description_
         """
 
         # if not is_doc:
